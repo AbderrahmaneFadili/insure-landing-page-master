@@ -1,0 +1,36 @@
+/* ======== import fonts ======= */
+
+/* DM Serif Display */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+/*  Karla  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
+/* Reset Style */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --headings-font: "DM Serif Display", serif;
+  --body-font: "Karla", sans-serif;
+  --font-size: 16px;
+  --primary-dark: #2d2640;
+  --primary-light: #95a9c6;
+  --very-dark-violet: #2b272f;
+  --dark-grayish-violet: #837d87;
+  --very-light-gray: #fafafa;
+}
+
+html {
+  font-size: var(--font-size);
+  font-family: var(--body-font);
+}
+
+body {
+  background-color: var(--very-light-gray);
+}
