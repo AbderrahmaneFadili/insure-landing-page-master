@@ -472,12 +472,14 @@ img {
     top: 0;
     right: 0;
     width: 25%;
+    display: block;
   }
 
   .pattern-intro-left-desktop {
     position: absolute;
     top: 80%;
     left: 0;
+    display: block;
   }
 
   /* We are different */
